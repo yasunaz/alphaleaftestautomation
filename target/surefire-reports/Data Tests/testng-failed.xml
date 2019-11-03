@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Data Tests]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Smoke(failed)" verbose="0">
+    <classes>
+      <class name="testcase.DemoTest">
+        <methods>
+          <include name="someTestCase"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testcase.DemoTest -->
+    </classes>
+  </test> <!-- Smoke(failed) -->
+</suite> <!-- Failed suite [Data Tests] -->
